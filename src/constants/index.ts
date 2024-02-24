@@ -23,7 +23,6 @@ import {
   mongodb,
   git,
   figma,
-  docker,
   meta,
   starbucks,
   tesla,
@@ -119,7 +118,7 @@ const technologies: TTechnology[] = [
   },
   {
     name: "docker",
-    icon: docker,
+    icon: backend,
   },
 ];
 

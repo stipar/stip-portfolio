@@ -80,7 +80,7 @@ export const config: TConfig = {
         works: {
             p: "Mi Trabajo",
             h2: "Proyectos.",
-            content: `Los siguientes proyectos muestran mis habilidades y experiencia a través de ejemplos de mi trabajo del mundo real. Cada proyecto se describe brevemente con enlaces a repositorios de código y demostraciones en vivo. Refleja mi capacidad para resolver problemas complejos, trabajar con diferentes tecnologías y gestionar proyectos de forma eficaz.`,
+            content: `Estos son algunos proyectos muestran mis habilidades y experiencia a través de ejemplos de mi trabajo del mundo real. Cada proyecto se describe brevemente con enlaces a repositorios de código y demostraciones en vivo. Refleja mi capacidad para resolver problemas complejos, trabajar con diferentes tecnologías y gestionar proyectos de forma eficaz.`,
         },
     },
 };
