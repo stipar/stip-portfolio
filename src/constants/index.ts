@@ -55,7 +55,7 @@ const services: TService[] = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "React Developer",
     icon: mobile,
   },
   {
@@ -121,59 +121,55 @@ const technologies: TTechnology[] = [
     name: "docker",
     icon: docker,
   },
+  {
+    name: "docker",
+    icon: backend,
+  },
 ];
 
 const experiences: TExperience[] = [
   {
-    title: "React.js Developer",
-    companyName: "Starbucks",
+    title: "C# Developer",
+    companyName: "Estetica Caninca Paco",
     icon: starbucks,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "2018",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Desarrollo y mantenimiento de aplicacion de escritorio desarrollada en WinForms C# y SQL Server.",
     ],
   },
   {
-    title: "React Native Developer",
-    companyName: "Tesla",
+    title: ".Net Developer",
+    companyName: "Heladerya Kyndy",
     icon: tesla,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "2023",
     points: [
-      "Desarrollar y mantener aplicaciones web utilizando React.js y otras tecnologías relacionadas.",
-      "Colaborar con equipos multifuncionales, incluidos diseñadores, gerentes de producto y otros desarrolladores, para crear productos de alta calidad.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participar en revisiones de código y brindar comentarios constructivos a otros desarrolladores.",
+      "Desarrollo y mantenimiento de un sistema de gestion para heladerias con pasarela de pagos Mercado Pago y base de datos Firebase.",
+      "Modulo de terminal de autogestion para el cobro con QR. Aplicacion movil para gestionar pedidos con delivery.",
     ],
   },
   {
-    title: "Web Developer",
-    companyName: "Shopify",
+    title: ".Net Developer",
+    companyName: "Logistica Satelital",
     icon: shopify,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Desarrollo y mantenimiento de un sistema de turnos multiplataforma para administrar turnos presenciales.",
+      "Los turnos se generan desde un totem (android , windows, iOS).",
+      "Visor de videos gestionado a travez de links de Youtube.",
     ],
   },
   {
-    title: "Full stack Developer",
-    companyName: "Meta",
+    title: ".Net Developer",
+    companyName: "Ditribuidora Gaoxin",
     icon: meta,
     iconBg: "#E6DEDD",
     date: "Jan 2023 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Desarrollo y mantenimiento de un sistema punto de venta con pasarela de pagos Mercado Pago y base de datos Firebase.",
+      "Aplicacion movil para gestionar pedidos con envio y pagos con link de pago Mercado Pago."
     ],
   },
 ];

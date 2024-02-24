@@ -56,10 +56,10 @@ export const config: TConfig = {
                 span: "STIP ''Soluciones Informáticas''",
                 placeholder: "¿Cuál es su nombre?",
             },
-            email: { span: "Su Email", placeholder: "¿Cual es su E-Mail?" },
+            email: { span: "Su Email", placeholder: "¿Cuál es su E-Mail?" },
             message: {
                 span: "Su Mensage",
-                placeholder: "What do you want to say?",
+                placeholder: "¿Cuál es su mensaje?",
             },
         },
     },
@@ -74,12 +74,12 @@ export const config: TConfig = {
             h2: "Experiencia Laboral.",
         },
         feedbacks: {
-            p: "LO QUE DICEN LOS DEMÁS",
+            p: "Que piensan nuestros clientes",
             h2: "Testimonios.",
         },
         works: {
             p: "Mi Trabajo",
-            h2: "Projectos.",
+            h2: "Proyectos.",
             content: `Los siguientes proyectos muestran mis habilidades y experiencia a través de ejemplos de mi trabajo del mundo real. Cada proyecto se describe brevemente con enlaces a repositorios de código y demostraciones en vivo. Refleja mi capacidad para resolver problemas complejos, trabajar con diferentes tecnologías y gestionar proyectos de forma eficaz.`,
         },
     },
