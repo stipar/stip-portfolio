@@ -120,7 +120,7 @@ const technologies: TTechnology[] = [
   {
     name: "docker",
     icon: docker,
-  },
+    },
   {
     name: "docker",
     icon: backend,
@@ -151,7 +151,7 @@ const experiences: TExperience[] = [
   },
   {
     title: ".Net Developer",
-    companyName: "Logistica Satelital",
+    companyName: "ogistica Satelital",
     icon: shopify,
     iconBg: "#383E56",
     date: "2024",
@@ -267,4 +267,4 @@ const projects: TProject[] = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };ervices, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, testimonials, projects };
