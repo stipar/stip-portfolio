@@ -209,10 +209,10 @@ const projects: TProject[] = [
   {
     name: "Turnero App",
     description:
-      "Aplicativo multiplataforma para la administración de turnos presenciales.",
+      "Aplicativo multiplataforma para la administracion de turnos presenciales.",
     tags: [
       {
-        name: ".net Maui",
+        name: ".net",
         color: "blue-text-gradient",
       },
       {
@@ -233,7 +233,7 @@ const projects: TProject[] = [
       "Sistema administrador de heladerias con pasarela de pago Mercado Pago QR. Terminal de autogestión con pago QR. Aplicaicon Móvil parar delivery con integracion de pago Mercado Pago (link de pago).",
     tags: [
       {
-        name: ".net Maui",
+        name: ".net",
         color: "blue-text-gradient",
       },
       {
@@ -254,15 +254,15 @@ const projects: TProject[] = [
       "Sistema de punto de venta para distribuidoras con integracion de Mercado Pago. Aplicacion movil para pedidos con envio. .",
     tags: [
       {
-        name: "nextjs",
+        name: ".net",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "Firebase",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "Mercado Pago",
         color: "pink-text-gradient",
       },
     ],
