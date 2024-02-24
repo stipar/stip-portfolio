@@ -121,10 +121,6 @@ const technologies: TTechnology[] = [
     name: "docker",
     icon: docker,
   },
-  {
-    name: "C#",
-    icon: backend,
-  },
 ];
 
 const experiences: TExperience[] = [
