@@ -16,8 +16,12 @@ const Hero = () => {
         </div>
 
         <div>
-          <h1 className={`${styles.heroHeadText} text-white`}>
-            Christian <span className="text-[#915EFF]">{config.hero.name}</span>
+          <h1 className={`${styles.heroHeadText} text-#915EFF`}>
+            Christian Zaragoza
+          </h1>
+
+          <h1 className={`${styles.heroSubText} '${config.hero.name}'   text-white`}>
+            <span className="text-[#915EFF]">{config.hero.name}</span>
           </h1>
           <p className={`${styles.heroSubText} text-white-100 mt-2`}>
             {config.hero.p[0]} <br className="hidden sm:block" />

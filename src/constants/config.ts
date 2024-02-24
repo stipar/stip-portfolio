@@ -45,8 +45,8 @@ export const config: TConfig = {
         email: "christianrobertozarargoza@gmail.com",
     },
     hero: {
-        name: "Zaragoza Software Developer",
-        p: ["Desarrollo de aplicaciones web", "Desarrollo de aplicaicones multi plataforma"],
+        name: "Desarrollador de aplicaciones web y multiplataforma",
+        p: [" STIP ''Soluciones Informaticas''"],
     },
     contact: {
         p: "Pongase en contacto",
@@ -70,7 +70,7 @@ export const config: TConfig = {
             content: `Soy un desarrollador de software capacitado con experiencia en C# y Python, experiencia en marcos como React, Node.js y Three.js. Aprendo rápido y colaboro estrechamente con los clientes para crear soluciones eficientes, escalables y fáciles de usar que resuelvan problemas del mundo real. ¡Trabajemos juntos para hacer realidad tus ideas!`,
         },
         experience: {
-            p: "Mis trabajos",
+            p: "Algunos de mis trabajos",
             h2: "Experiencia Laboral.",
         },
         feedbacks: {

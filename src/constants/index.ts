@@ -135,7 +135,7 @@ const experiences: TExperience[] = [
     ],
   },
   {
-    title: "React Development",
+    title: ".Net Development",
     companyName: "Heladerya Kyndy",
     icon: tesla,
     iconBg: "#E6DEDD",
@@ -162,7 +162,7 @@ const experiences: TExperience[] = [
     companyName: "Meta",
     icon: meta,
     iconBg: "#E6DEDD",
-    date: "2023",
+    date: "2024",
     points: [
       "Desarrollo y mantenimiento de un sistema punto de venta con pasarela de pagos Mercado Pago y base de datos Firebase.",
       "Aplicacion movil para gestionar pedidos con envio y pagos con link de pago Mercado Pago.",

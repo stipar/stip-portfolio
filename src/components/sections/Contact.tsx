@@ -8,6 +8,9 @@ import { slideIn } from "../../utils/motion";
 import { config } from "../../constants/config";
 import { Header } from "../atoms/Header";
 
+import whatsappIcon from "../../assets/whatsapp.png"; 
+
+
 const INITIAL_STATE = Object.fromEntries(
   Object.keys(config.contact.form).map((input) => [input, ""])
 );
@@ -31,9 +34,20 @@ const Contact = () => {
     setForm({ ...form, [name]: value });
   };
 
+    const validateForm = () => {
+        // Verifica si algún campo del formulario está vacío
+        return !Object.values(form).some((value) => value === "");
+    };
+
   const handleSubmit = (e: React.FormEvent<HTMLFormElement> | undefined) => {
     if (e === undefined) return;
-    e.preventDefault();
+      e.preventDefault();
+
+      if (!validateForm()) {
+          alert("Por favor, rellene todos los campos.");
+          return;
+
+      }
     setLoading(true);
 
     emailjs
@@ -52,7 +66,7 @@ const Contact = () => {
       .then(
         () => {
           setLoading(false);
-          alert("Thank you. I will get back to you as soon as possible.");
+          alert("Muchas gracias, en breve nos pondremos en contacto.");
 
           setForm(INITIAL_STATE);
         },
@@ -60,10 +74,16 @@ const Contact = () => {
           setLoading(false);
 
           console.log(error);
-          alert("Something went wrong.");
+          alert("Algo salio mal.");
         }
       );
-  };
+    };
+
+    const openWhatsApp = () => {
+
+        window.open(`https://wa.me/+5491157805146`, "_blank");
+    };
+
 
   return (
     <div
@@ -101,12 +121,24 @@ const Contact = () => {
               </label>
             );
           })}
-          <button
-            type="submit"
-            className="bg-tertiary shadow-primary w-fit rounded-xl px-8 py-3 font-bold text-white shadow-md outline-none"
-          >
-            {loading ? "Enviando..." : "Enviar"}
-          </button>
+
+            <div className="flex justify-between gap-4">
+
+                <button
+                    type="submit"
+                    className="bg-tertiary shadow-primary w-fit rounded-xl px-8 py-3 font-bold text-white shadow-md outline-none"
+                >
+                    {loading ? "Enviando..." : "Enviar"}
+                </button>
+
+                <button
+                    onClick={openWhatsApp}
+                    className="shadow-primary w-fit rounded-xl px-8 py-3 font-bold text-white shadow-md outline-none"
+                >
+                    <img src={whatsappIcon} alt="WhatsApp Icon" className="h-16 w-16 mr-2" />
+                </button>
+            </div>
+
         </form>
       </motion.div>
 
