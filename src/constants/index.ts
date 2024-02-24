@@ -166,7 +166,7 @@ const experiences: TExperience[] = [
     companyName: "Ditribuidora Gaoxin",
     icon: meta,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "2024",
     points: [
       "Desarrollo y mantenimiento de un sistema punto de venta con pasarela de pagos Mercado Pago y base de datos Firebase.",
       "Aplicacion movil para gestionar pedidos con envio y pagos con link de pago Mercado Pago."
