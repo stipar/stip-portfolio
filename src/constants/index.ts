@@ -9,6 +9,7 @@ import type {
 
 import {
   mobile,
+  go,
   backend,
   creator,
   web,
@@ -188,11 +189,19 @@ const testimonials: TTestimonial[] = [
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+      "Muy bueno la tecnologia que usas, es igual a los Mcdonald's de aqui en Miami. La verdad es un excelente trabajo.",
+    name: "Jennifer Villarreal",
+    designation: "Ministerio Familiar Cristiano Pentecostal",
+    company: "Miami, EE.UU.",
+    image: "https://scontent.fepa6-1.fna.fbcdn.net/v/t39.30808-6/274366075_4834566876658677_4390863075564103869_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=3635dc&_nc_eui2=AeGYndaxqlkbzj5TuWRlNVGchFpfXWjscuiEWl9daOxy6JXw8LmxPbOb2OhAi7_kgqES4gk-ggDFsyDY9XBrOja2&_nc_ohc=USnp93DQPdcAX_XNTf5&_nc_ht=scontent.fepa6-1.fna&oh=00_AfB0bddsBeVOH35l2axQDMwBwCeBnq-UBRxouMVqbVnYUA&oe=65E00413",
+  },
+  {
+    testimonial:
+      "Hemos adquirido Group Organizer Suite y nos esta ayudando muchisimo en la organizacion de la iglesia y los grupos de amistad. Recomendable.",
+    name: "Omar Nuñez",
+    designation: "Iglesia Nueva Vida",
+    company: "California, EE.UU.",
+    image: "https://scontent.fepa6-1.fna.fbcdn.net/v/t39.30808-6/253662598_10218676829981920_5998195063814997708_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=9c7eae&_nc_eui2=AeES8BbRCVPutFRB0T2e9pPGJwJ_UOWRmoYnAn9Q5ZGahjZbYBHDHZ5qE4zUIOCDZ2c5oZDEuqTpGo_V2gSuLJSI&_nc_ohc=rJH2IAjdltsAX8ID2vF&_nc_ht=scontent.fepa6-1.fna&oh=00_AfBidHe-2oiNtIBVuO2wiWl3C9dGSiBbvoBL--on3dXJMg&oe=65DEA16B",
   },
 ];
 
@@ -216,7 +225,7 @@ const projects: TProject[] = [
       },
     ],
     image: carrent,
-    sourceCodeLink: "https://github.com/",
+    sourceCodeLink: "https://github.com/stipar",
   },
   {
     name: "Heladeria Suite Manager",
@@ -237,7 +246,7 @@ const projects: TProject[] = [
       },
     ],
     image: jobit,
-    sourceCodeLink: "https://github.com/",
+    sourceCodeLink: "https://github.com/stipar",
   },
   {
     name: "Distri App Suite",
@@ -258,7 +267,29 @@ const projects: TProject[] = [
       },
     ],
     image: tripguide,
-    sourceCodeLink: "https://github.com/",
+    sourceCodeLink: "https://github.com/stipar",
+  },
+
+  {
+    name: "Group Organizer Suite",
+    description:
+      "Sistema organizador de asistencias, finazas y grupos de amistad para iglesias. Consta de una aplicacinon de escritorio y una suite de 5 aplicaciones moviles.",
+    tags: [
+      {
+        name: ".net",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "SQLite",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Firebase",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: go,
+    sourceCodeLink: "https://github.com/stipar",
   },
 ];
 

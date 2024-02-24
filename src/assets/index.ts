@@ -2,6 +2,7 @@ import logo from "./logo.png";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
+import go from "./go.png";
 import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
@@ -33,6 +34,7 @@ import tripguide from "./tripguide.png";
 export {
   logo,
   backend,
+  go,
   creator,
   mobile,
   web,
