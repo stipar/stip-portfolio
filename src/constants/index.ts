@@ -37,15 +37,15 @@ import {
 export const navLinks: TNavLink[] = [
   {
     id: "about",
-    title: "About",
+    title: "Acerca de",
   },
   {
     id: "work",
-    title: "Work",
+    title: "Trabajos",
   },
   {
     id: "contact",
-    title: "Contact",
+    title: "Contacto",
   },
 ];
 
@@ -121,11 +121,15 @@ const technologies: TTechnology[] = [
     name: "docker",
     icon: docker,
   },
+  {
+    name: "C#",
+    icon: backend,
+  },
 ];
 
 const experiences: TExperience[] = [
   {
-    title: "C# Developer",
+    title: "C# Development",
     companyName: "Estetica Caninca Paco",
     icon: starbucks,
     iconBg: "#383E56",
@@ -135,7 +139,7 @@ const experiences: TExperience[] = [
     ],
   },
   {
-    title: "React Developer",
+    title: "React Development",
     companyName: "Heladerya Kyndy",
     icon: tesla,
     iconBg: "#E6DEDD",
@@ -146,7 +150,7 @@ const experiences: TExperience[] = [
     ],
   },
   {
-    title: ".Net Developer",
+    title: ".Net Development",
     companyName: "Logistica Satelital",
     icon: shopify,
     iconBg: "#383E56",
