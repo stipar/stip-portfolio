@@ -37,15 +37,15 @@ import {
 export const navLinks: TNavLink[] = [
   {
     id: "about",
-    title: "Acerca de",
+    title: "About",
   },
   {
     id: "work",
-    title: "Trabajos",
+    title: "Work",
   },
   {
     id: "contact",
-    title: "Contacto",
+    title: "Contact",
   },
 ];
 
@@ -55,7 +55,7 @@ const services: TService[] = [
     icon: web,
   },
   {
-    title: "React Developer",
+    title: "React Native Developer",
     icon: mobile,
   },
   {
@@ -121,55 +121,59 @@ const technologies: TTechnology[] = [
     name: "docker",
     icon: docker,
   },
-  {
-    name: "docker",
-    icon: backend,
-  },
 ];
 
 const experiences: TExperience[] = [
   {
-    title: "C# Developer",
-    companyName: "Estetica Caninca Paco",
+    title: "React.js Developer",
+    companyName: "Starbucks",
     icon: starbucks,
     iconBg: "#383E56",
-    date: "2018",
+    date: "March 2020 - April 2021",
     points: [
-      "Desarrollo y mantenimiento de aplicacion de escritorio desarrollada en WinForms C# y SQL Server.",
+      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
   {
-    title: ".Net Developer",
-    companyName: "Heladerya Kyndy",
+    title: "React Native Developer",
+    companyName: "Tesla",
     icon: tesla,
     iconBg: "#E6DEDD",
-    date: "2023",
+    date: "Jan 2021 - Feb 2022",
     points: [
-      "Desarrollo y mantenimiento de un sistema de gestion para heladerias con pasarela de pagos Mercado Pago y base de datos Firebase.",
-      "Modulo de terminal de autogestion para el cobro con QR. Aplicacion movil para gestionar pedidos con delivery.",
+      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
   {
-    title: ".Net Developer",
-    companyName: "Logistica Satelital",
+    title: "Web Developer",
+    companyName: "Shopify",
     icon: shopify,
     iconBg: "#383E56",
-    date: "2024",
+    date: "Jan 2022 - Jan 2023",
     points: [
-      "Desarrollo y mantenimiento de un sistema de turnos multiplataforma para administrar turnos presenciales.",
-      "Los turnos se generan desde un totem (android , windows, iOS).",
-      "Visor de videos gestionado a travez de links de Youtube.",
+      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
   {
-    title: ".Net Developer",
-    companyName: "Ditribuidora Gaoxin",
+    title: "Full stack Developer",
+    companyName: "Meta",
     icon: meta,
     iconBg: "#E6DEDD",
-    date: "2024",
+    date: "Jan 2023 - Present",
     points: [
-      "Desarrollo y mantenimiento de un sistema punto de venta con pasarela de pagos Mercado Pago y base de datos Firebase.",
-      "Aplicacion movil para gestionar pedidos con envio y pagos con link de pago Mercado Pago."
+      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
 ];
@@ -177,19 +181,19 @@ const experiences: TExperience[] = [
 const testimonials: TTestimonial[] = [
   {
     testimonial:
-      "Excelente trabajo, recomendable 100*100!.",
-    name: "Juan Sanchez",
-    designation: "Logistica Satelital",
-    company: "Rosario",
-    image: "https://scontent.fepa6-1.fna.fbcdn.net/v/t39.30808-6/276299799_5568999483127520_3278779032722138713_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=efb6e6&_nc_eui2=AeGsVJ9fhVjTuxwKi8-2dRRLqh9DYIhdDc6qH0NgiF0NzlxaX0EZKGRY2Nn_g16EluTd9y3cSfKN1jfDr-szoXmm&_nc_ohc=2UuY9y0JFpYAX84eTy0&_nc_ht=scontent.fepa6-1.fna&oh=00_AfAIRSTpm7FsieoJdhG3PR7XUSNP90JH48knnYEm6fycpQ&oe=65DE6343",
+      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+    name: "Sara Lee",
+    designation: "CFO",
+    company: "Acme Co",
+    image: "https://randomuser.me/api/portraits/women/4.jpg",
   },
   {
     testimonial:
-      "El sistema nos agiliza en gran manera la espera de los clientes y descomprime la caja humana.",
-    name: "Emiliano Garate",
-    designation: "Heladeria Kyndy",
-    company: "Cordoba",
-      image: "https://scontent.fepa6-1.fna.fbcdn.net/v/t1.6435-9/44261307_10209868832117102_3196224119477633024_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=be3454&_nc_eui2=AeHXpuyhJby4vklI5QhFy1wil9-hU46ISJOX36FTjohIk8juEZsm-2sqF3djARB_ju7I3g2PoO1KqObm7DJ7QDgQ&_nc_ohc=CY4w5-P6UqkAX8aYv9Y&_nc_ht=scontent.fepa6-1.fna&oh=00_AfAG9kO-4mkJPNSwcxuj5I9wIky7AKR81gbDGCwaeTrZkA&oe=66011653",
+      "I've never met a web developer who truly cares about their clients' success like Rick does.",
+    name: "Chris Brown",
+    designation: "COO",
+    company: "DEF Corp",
+    image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
   {
     testimonial:
@@ -203,20 +207,20 @@ const testimonials: TTestimonial[] = [
 
 const projects: TProject[] = [
   {
-    name: "Turnero App",
+    name: "Car Rent",
     description:
-      "Aplicativo multiplataforma para la administracion de turnos presenciales.",
+      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
     tags: [
       {
-        name: ".net",
+        name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "SQLite",
+        name: "mongodb",
         color: "green-text-gradient",
       },
       {
-        name: "Firebase",
+        name: "tailwind",
         color: "pink-text-gradient",
       },
     ],
@@ -224,20 +228,20 @@ const projects: TProject[] = [
     sourceCodeLink: "https://github.com/",
   },
   {
-    name: "Heladeria Suite Manager",
+    name: "Job IT",
     description:
-      "Sistema administrador de heladerias con pasarela de pago Mercado Pago QR. Terminal de autogestión con pago QR. Aplicaicon Móvil parar delivery con integracion de pago Mercado Pago (link de pago).",
+      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
     tags: [
       {
-        name: ".net",
+        name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "Firebase",
+        name: "restapi",
         color: "green-text-gradient",
       },
       {
-        name: "Mercado Pago",
+        name: "scss",
         color: "pink-text-gradient",
       },
     ],
@@ -245,20 +249,20 @@ const projects: TProject[] = [
     sourceCodeLink: "https://github.com/",
   },
   {
-    name: "Distri App Suite",
+    name: "Trip Guide",
     description:
-      "Sistema de punto de venta para distribuidoras con integracion de Mercado Pago. Aplicacion movil para pedidos con envio. .",
+      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
     tags: [
       {
-        name: ".net",
+        name: "nextjs",
         color: "blue-text-gradient",
       },
       {
-        name: "Firebase",
+        name: "supabase",
         color: "green-text-gradient",
       },
       {
-        name: "Mercado Pago",
+        name: "css",
         color: "pink-text-gradient",
       },
     ],
