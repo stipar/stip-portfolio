@@ -230,7 +230,7 @@ const projects: TProject[] = [
   {
     name: "Heladeria Suite Manager",
     description:
-      "Sistema administrador de heladerias con pasarela de pago Mercado Pago QR. Terminal de autogestión con pago QR. Aplicaicon Móvil parar delivery con integracion de pago Mercado Pago (link de pago).",
+      "Sistema administrador de heladerias con pasarela de pago Mercado Pago QR. Terminal de autogestion con pago QR. Aplicaicon Movil parar delivery con integracion de pago Mercado Pago (link de pago).",
     tags: [
       {
         name: ".net",
